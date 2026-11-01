@@ -164,7 +164,7 @@ code { font: 600 .9em/1 ui-monospace, "SF Mono", Menlo, Consolas, monospace; col
 .sources-label + .sources { margin-top: 16px; }
 
 /* Download */
-.platforms { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+.platforms { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
 .platform { display: flex; flex-direction: column; padding: 32px; border: 1px solid var(--rule); border-radius: var(--radius-lg); }
 .platform-head { display: flex; align-items: center; gap: 14px; }
 .platform-head .icon { display: grid; place-items: center; width: 48px; height: 48px; border: 1px solid var(--rule); border-radius: var(--radius); }
